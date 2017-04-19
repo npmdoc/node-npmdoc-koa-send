@@ -1,9 +1,14 @@
-# api documentation for  [koa-send (v3.3.0)](https://github.com/koajs/send#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-send.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-send) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-send.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-send)
+# npmdoc-koa-send
+
+#### api documentation for  [koa-send (v4.0.0)](https://github.com/koajs/send#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-send.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-send) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-send.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-send)
+
 #### Transfer static files
 
-[![NPM](https://nodei.co/npm/koa-send.png?downloads=true)](https://www.npmjs.com/package/koa-send)
+[![NPM](https://nodei.co/npm/koa-send.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/koa-send)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-koa-send/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-koa-send_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-koa-send/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-koa-send/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-koa-send/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-koa-send/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-koa-send/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-koa-send/build/screenCapture.npmPackageListing.svg)
 
@@ -20,28 +25,31 @@
         "url": "https://github.com/koajs/send/issues"
     },
     "dependencies": {
-        "co": "^4.6.0",
-        "debug": "^2.6.0",
-        "mz": "^2.3.1",
-        "resolve-path": "^1.3.1"
+        "debug": "^2.6.3",
+        "http-errors": "^1.6.1",
+        "mz": "^2.6.0",
+        "resolve-path": "^1.3.3"
     },
     "description": "Transfer static files",
     "devDependencies": {
         "istanbul": "0",
-        "koa": "1",
+        "koa": "2",
         "mocha": "3",
         "should": "11",
-        "supertest": "2"
+        "supertest": "3"
     },
     "directories": {},
     "dist": {
-        "shasum": "5a4ae245564680c6ecf6079e9275fa5173a861dc",
-        "tarball": "https://registry.npmjs.org/koa-send/-/koa-send-3.3.0.tgz"
+        "shasum": "be18781134788593d73a22a52c7a7a1c9be9f039",
+        "tarball": "https://registry.npmjs.org/koa-send/-/koa-send-4.0.0.tgz"
+    },
+    "engines": {
+        "node": ">= 7.6.0"
     },
     "files": [
         "index.js"
     ],
-    "gitHead": "134a6f62464286e4c3109086fb73b6cc052daf78",
+    "gitHead": "c7449f20cc30f6b7484700f8c9fbb4c8a1f57c54",
     "homepage": "https://github.com/koajs/send#readme",
     "keywords": [
         "koa",
@@ -52,45 +60,35 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "aheckmann",
-            "email": "aaron.heckmann+github@gmail.com"
+            "name": "aheckmann"
         },
         {
-            "name": "coderhaoxin",
-            "email": "coderhaoxin@outlook.com"
+            "name": "coderhaoxin"
         },
         {
-            "name": "dead_horse",
-            "email": "dead_horse@qq.com"
+            "name": "dead_horse"
         },
         {
-            "name": "eivifj",
-            "email": "eivind.fjeldstad@gmail.com"
+            "name": "eivifj"
         },
         {
-            "name": "fengmk2",
-            "email": "fengmk2@gmail.com"
+            "name": "fengmk2"
         },
         {
-            "name": "jonathanong",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jonathanong"
         },
         {
-            "name": "jongleberry",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jongleberry"
         },
         {
-            "name": "juliangruber",
-            "email": "julian@juliangruber.com"
+            "name": "juliangruber"
         },
         {
-            "name": "tjholowaychuk",
-            "email": "tj@vision-media.ca"
+            "name": "tjholowaychuk"
         }
     ],
     "name": "koa-send",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/koajs/send.git"
@@ -100,19 +98,25 @@
         "test-cov": "istanbul cover ./node_modules/.bin/_mocha -- --require should",
         "test-travis": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require should"
     },
-    "version": "3.3.0"
+    "version": "4.0.0",
+    "warnings": [
+        {
+            "code": "ENOTSUP",
+            "required": {
+                "node": ">= 7.6.0"
+            },
+            "pkgid": "koa-send@4.0.0"
+        },
+        {
+            "code": "ENOTSUP",
+            "required": {
+                "node": ">= 7.6.0"
+            },
+            "pkgid": "koa-send@4.0.0"
+        }
+    ]
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module koa-send](#apidoc.module.koa-send)
-
-
-
-# <a name="apidoc.module.koa-send"></a>[module koa-send](#apidoc.module.koa-send)
 
 
 
