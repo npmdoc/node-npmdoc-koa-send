@@ -1,6 +1,6 @@
 # npmdoc-koa-send
 
-#### api documentation for  [koa-send (v4.0.0)](https://github.com/koajs/send#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-send.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-send) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-send.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-send)
+#### basic api documentation for  [koa-send (v4.0.0)](https://github.com/koajs/send#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-send.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-send) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-send.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-send)
 
 #### Transfer static files
 
@@ -114,7 +114,8 @@
             },
             "pkgid": "koa-send@4.0.0"
         }
-    ]
+    ],
+    "bin": {}
 }
 ```
 
