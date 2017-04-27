@@ -1,6 +1,6 @@
 # npmdoc-koa-send
 
-#### basic api documentation for  [koa-send (v4.0.0)](https://github.com/koajs/send#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-send.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-send) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-send.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-send)
+#### basic api documentation for  [koa-send (v4.1.0)](https://github.com/koajs/send#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-koa-send.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-koa-send) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-koa-send.svg)](https://travis-ci.org/npmdoc/node-npmdoc-koa-send)
 
 #### Transfer static files
 
@@ -32,6 +32,13 @@
     },
     "description": "Transfer static files",
     "devDependencies": {
+        "eslint": "^3.19.0",
+        "eslint-config-standard": "^10.2.1",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-node": "^4.2.2",
+        "eslint-plugin-promise": "^3.5.0",
+        "eslint-plugin-standard": "^3.0.1",
+        "iltorb": "^1.2.1",
         "istanbul": "0",
         "koa": "2",
         "mocha": "3",
@@ -40,8 +47,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "be18781134788593d73a22a52c7a7a1c9be9f039",
-        "tarball": "https://registry.npmjs.org/koa-send/-/koa-send-4.0.0.tgz"
+        "shasum": "07d5a4eaab212679fe99916aae6b1109c08c2361",
+        "tarball": "https://registry.npmjs.org/koa-send/-/koa-send-4.1.0.tgz"
     },
     "engines": {
         "node": ">= 7.6.0"
@@ -49,7 +56,7 @@
     "files": [
         "index.js"
     ],
-    "gitHead": "c7449f20cc30f6b7484700f8c9fbb4c8a1f57c54",
+    "gitHead": "44090017d7f95bf90d1673f5e29c28fea6cf90e9",
     "homepage": "https://github.com/koajs/send#readme",
     "keywords": [
         "koa",
@@ -94,25 +101,26 @@
         "url": "git+https://github.com/koajs/send.git"
     },
     "scripts": {
+        "lint": "eslint --fix .",
         "test": "mocha --require should --reporter spec",
         "test-cov": "istanbul cover ./node_modules/.bin/_mocha -- --require should",
         "test-travis": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require should"
     },
-    "version": "4.0.0",
+    "version": "4.1.0",
     "warnings": [
         {
             "code": "ENOTSUP",
             "required": {
                 "node": ">= 7.6.0"
             },
-            "pkgid": "koa-send@4.0.0"
+            "pkgid": "koa-send@4.1.0"
         },
         {
             "code": "ENOTSUP",
             "required": {
                 "node": ">= 7.6.0"
             },
-            "pkgid": "koa-send@4.0.0"
+            "pkgid": "koa-send@4.1.0"
         }
     ],
     "bin": {}
